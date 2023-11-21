@@ -1,4 +1,4 @@
-A4 OpenBim Champion
+# A4 OpenBim Champion
 
 ## Identification of the target audience
 
@@ -10,13 +10,13 @@ For the lowest level of the analyst role, you can analyze an IFC file in excel, 
 
 To sum up we conclude that our target role doesn’t have any knowledge about python and programming using IfcOpenshell, which is why we have tried to make our script understandable and user friendly.
 
-## Goal and scope
+## Goal and scope
 
 The goal of the tool is to be able to add materials and layers to wall types in an IFC4 file. The scope of this tool is that the tool only relates to walls and is limited to the thickness given beforehand. It is also limited regarding the materials you add, ideally, we would like to make a material catalog with respective EPD data the user would be able to choose the materials from.
 
-## BIM use
+## BIM use
 
-#### Introduction 
+#### Introduction 
 
 The use of the model is to assign materials and layer thicknesses to a simple model – which is especially important in the early stages of an LCA when wanting to have an indicator of how the CO2 emissions of the building will/can look like. It involves user input through an Excel file to define material properties for each wall type, streamlining the process of updating the IFC file. The script is designed to simplify the task of updating early stage IFC files. It targets wall types and utilizes an Excel file for user input, allowing for the specification of material properties for the different walltypes (names and thicknesses).
 
